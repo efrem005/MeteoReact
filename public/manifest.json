@@ -1,6 +1,6 @@
 {
-  "short_name": "MeteoReact",
-  "name": "Create React App Sample",
+  "short_name": "Meteo React",
+  "name": "Приложение метео данные",
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,7 +19,15 @@
     }
   ],
   "start_url": ".",
+  "version": "0.1.2",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "green",
+  "background_color": "#ffffff",
+  "theme": {
+    "colors": {
+      "frame": "green",
+      "toolbar": "green",
+      "tab_background_text": "white"
+    }
+  }
 }
