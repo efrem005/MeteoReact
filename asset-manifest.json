@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MeteoReact/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/MeteoReact/static/js/main.c3cc49c9.chunk.js",
-    "main.js.map": "/MeteoReact/static/js/main.c3cc49c9.chunk.js.map",
+    "main.js": "/MeteoReact/static/js/main.07ad5824.chunk.js",
+    "main.js.map": "/MeteoReact/static/js/main.07ad5824.chunk.js.map",
     "runtime-main.js": "/MeteoReact/static/js/runtime-main.7ed9cee8.js",
     "runtime-main.js.map": "/MeteoReact/static/js/runtime-main.7ed9cee8.js.map",
     "static/js/2.fb4fc36a.chunk.js": "/MeteoReact/static/js/2.fb4fc36a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7ed9cee8.js",
     "static/js/2.fb4fc36a.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.c3cc49c9.chunk.js"
+    "static/js/main.07ad5824.chunk.js"
   ]
 }
