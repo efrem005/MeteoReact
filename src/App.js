@@ -27,7 +27,7 @@ export default class App extends Component {
         const result = Math.abs(oldTemp - newTemp).toFixed(1)
 
         if (newTemp === oldTemp) return `0`
-        else if (oldTemp < newTemp) return `+${result}`
+        else if (newTemp < oldTemp) return `+${result}`
         else return `-${result}`
     }
 
