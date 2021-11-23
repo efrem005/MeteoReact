@@ -51,13 +51,15 @@ export const Nav = () => {
                                 <option value={count}>количество значений</option>
                                 <option value={15}>15</option>
                                 <option value={30}>30</option>
-                                <option value={50}>50</option>
-                                <option value={100}>100</option>
-                                <option value={200}>200</option>
-                                <option value={400}>400</option>
-                                <option value={800}>800</option>
-                                <option value={1600}>1600</option>
-                                <option value={3200}>3200</option>
+                                <option value={45}>45</option>
+                                <option value={60}>60</option>
+                                <option value={120}>120</option>
+                                <option value={240}>240</option>
+                                <option value={480}>480</option>
+                                <option value={960}>960</option>
+                                <option value={1920}>1920</option>
+                                <option value={3840}>3840</option>
+                                <option value={7680}>7680</option>
                             </select>
                         </div>
                         <button className={loading?"btn btn-outline-success mybtn disabled":"btn btn-outline-success mybtn"} type="submit">
