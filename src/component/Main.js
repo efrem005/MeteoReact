@@ -6,10 +6,11 @@ import TempMax from "./Sidebar/TempMax"
 import TempMin from "./Sidebar/TempMin"
 import Nav from "./Nav";
 import {Outlet} from "react-router-dom";
+import Footer from "./footer/Footer";
 
 export const Main = () => {
 
-    const {loading, min, max} = useSelector(state => state.temp)
+    const {loading, min, max, data} = useSelector(state => state.temp)
 
     const dispatch = useDispatch()
 
@@ -19,7 +20,7 @@ export const Main = () => {
 
 
     return (
-            <div className="container">
+            <div className="container h-100">
                 <Nav />
                 <div className="row">
                     <div className="col-lg-3 mb-2 barMenu">
@@ -65,6 +66,12 @@ export const Main = () => {
                             </div>
                             <Outlet />
                         </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-lg-3 mb-2"></div>
+                    <div className="col-lg-9 col-md-12 text-center">
+                        {data.length > 15 ? <Footer /> : ''}
                     </div>
                 </div>
             </div>

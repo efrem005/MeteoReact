@@ -42,7 +42,7 @@ export const Nav = () => {
                             <Link className="btn btn-outline-success mx-2" to="/MeteoReact/Grafic">График</Link>
                         </li>
                         <li className="nav-item my-1 my-lg-0">
-                            <Link className="btn btn-outline-success" to="/MeteoReact/dalass">18B20</Link>
+                            <Link className="btn btn-outline-success" to="/MeteoReact/dallas">18B20</Link>
                         </li>
                     </ul>
                     <form onSubmit={addCount} className="d-flex justify-content-center">

@@ -1,9 +1,13 @@
 {
   "name": "Meteo React",
   "homepage": "https://efrem005.github.io/MeteoReact",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.1.1",
+    "@mui/material": "^5.1.1",
     "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
