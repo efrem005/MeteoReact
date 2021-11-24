@@ -15,13 +15,16 @@ export const fetchTemp = createAsyncThunk(
 )
 
 const tempLop = (data) => {
-    const newTemp = data[0].value
-    const oldTemp = data[data.length - 1].value
+    const newTemp = +data[0].value
+    const oldTemp = +data[data.length - 1].value
 
     const result = Math.abs(oldTemp - newTemp).toFixed(1)
+    console.log(result)
+    console.log(newTemp)
+    console.log(oldTemp)
 
-    if (newTemp === oldTemp) return `0`
-    else if (newTemp > oldTemp) return `+${result}`
+    if(oldTemp === newTemp) return `0`
+    else if(oldTemp < newTemp) return `+${result}`
     else return `-${result}`
 }
 
@@ -81,6 +84,7 @@ const tempSlice = createSlice({
         },
         [fetchTemp.fulfilled]: (state, action) => {
             state.loading = false
+            state.page = 1
             const indexPage = state.page * state.post
             const indexSlice = indexPage - state.post
             state.data = [...action.payload].map(item => {return ({id: item.id, date: item.date, value: item.value, time: unixT(item.date)})})

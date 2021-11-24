@@ -36,7 +36,7 @@ export const Nav = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto mb-2 mb-lg-0">
                         <li className="nav-item my-1 my-lg-0">
-                            <Link className="btn btn-outline-success" to="/MeteoReact">Главная</Link>
+                            <Link className="btn btn-outline-success" to="/MeteoReact">История</Link>
                         </li>
                         <li className="nav-item my-1 my-lg-0">
                             <Link className="btn btn-outline-success mx-2" to="/MeteoReact/Grafic">График</Link>
